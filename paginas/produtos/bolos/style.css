@@ -47,13 +47,12 @@ header {
     width: 100%;
     height: 564px;
     overflow: hidden;
-    box-shadow: 0px 0px 3px 0px black;
 }
 
 .carousel-inner {
     display: flex;
     width: 100%;
-    animation: slide 10s infinite;
+    animation: slide 15s infinite;
 }
 
 .carousel-item {
@@ -64,6 +63,8 @@ header {
 .carousel-item img {
     width: 100%; /* A imagem ocupa 100% da largura do slide */
     height: 564PX; /* A altura da imagem será 100% da altura do container */
+    filter: blur(8px); /* Ajuste o valor para controlar o nível de desfoque */
+    opacity: 0.85; /* Opcional, pode combinar blur com opacidade */
     
 }
 
